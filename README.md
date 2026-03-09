@@ -34,9 +34,11 @@ python nanoreasoner.py --eval --checkpoint runs/my_run/final
 
 ## results: Colab T4, Qwen2.5-0.5B, 100 steps, $0
 
-Trained for ~3 hours on a free Google Colab T4 GPU.
+Trained Qwen2.5-0.5B on GSM8K for 100 steps on a Colab T4.
 
-**GSM8K accuracy: 3% → 6% at peak (step 75)**
+**GSM8K accuracy: 3% → 7.5% final**
+**Training time: ~3 hours**
+**Cost: $0**
 
 Before training (step 25):
 ```
